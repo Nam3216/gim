@@ -1,0 +1,77 @@
+.itemActivity img{
+    width: 240px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.activityText{
+    margin-bottom: 100px;
+   margin-top: 30px;
+
+}
+
+.activityCont{
+    background-color: rgb(234, 234, 243);
+    min-height: 80vh;
+    margin-top: 0px;
+    
+}
+
+.favorite-btn{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 196, 228);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;/*absolute para poder poner sobre otro elemento*/
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    
+  }
+  
+
+
+  .favorite-btn-notadded{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(230, 227, 228);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;/*absolute para poder poner sobre otro elemento*/
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    
+    
+  }
+
+  .itemActivity{
+    width: 250px;
+    margin: 0 auto;
+    position: relative;/*tiene q estar rtelative para q algo se pueda poner encima*/
+    border: 2px solid black;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border-radius: 30px;
+  }
+
+  .activityItems{
+  /*  margin-bottom: 50px;*/
+  }
+
+  .titlePActivity{
+
+    font-size: 36px;
+    margin-top: 0px;
+    padding: 30px;
+
+  }
+  
+  #buttonWish{
+    margin-top: 50px;
+  }

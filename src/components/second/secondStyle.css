@@ -1,0 +1,43 @@
+.secondContainer{
+    display: flex;
+    background-color: rgb(39, 39, 39);
+    border-bottom: 30px solid black;
+    border-right: 30px solid transparent;
+}
+
+.secondContainer p{
+    color: white;
+}
+
+.titleP{
+    font-size: 36px;
+}
+
+.secondText{
+    margin-top: 30%;
+   
+}
+
+.secondText p{
+    padding: 10px;
+}
+
+.secondP{
+    text-align: left;
+    
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.secondP button{
+    margin-top: 20px;
+}
+
+.secondImageContainer{
+    margin-top: 20px;
+}
+
+.secondImage{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

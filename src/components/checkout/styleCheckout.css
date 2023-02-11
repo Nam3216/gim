@@ -1,0 +1,58 @@
+.checkoutImg{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.checkoutImg img{
+    width: 30vw;
+    border-radius: 30px;
+    border: 1px solid black;
+    min-height: 200px;
+
+}
+
+.checkoutText{
+    width: 60%;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 8%;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+
+.checkoutCont{
+    margin: 0 auto;
+
+    text-align: center;
+    padding:30px;
+}
+
+.checkoutContainer{
+
+    background-color: rgb(230, 227, 228);
+    min-height: 90vh;
+    margin-top: 50px;
+}
+
+#wish{
+    margin-top: 200px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.checkoutButton{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.checkoutButton button{
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+#emptyWish{
+    margin-top: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,85 @@
+.homeContainer{
+    background-image: url("titleoka.jpg");
+ /*   width: 100%;
+    height: 100vh;*/
+    height: 100vh;
+/*background-image: url("comiccity.jpg");*/
+background-repeat: no-repeat;
+background-position: top;
+
+
+background-size: 100% 100%;
+width: 100%;
+/*height: 80vh;*/
+align-items: center;
+margin-top: 50px;
+
+}
+
+.homeImage{
+   /* background-color: green;*/
+    
+    margin-bottom: 20%;
+    /*margin-left: 10%;*/
+}
+
+.homeImage h3{
+    font-size: 36px;
+}
+
+.homeImage p{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.homeContainer{
+    display: flex;
+    
+}
+
+.container{
+    /*background-color: yellow;*/
+    
+}
+
+.aLink{
+    color: white;
+    font-weight: bold;
+}
+
+.homeButton button{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.homeButton{
+    margin: 0 auto;
+    width: fit-content;
+   
+}
+
+@media screen and (max-width: 900px) {
+
+
+
+    .homeContainer{
+        background-image: url("titleoka.jpg");
+         background-color: black;
+          /*width: 100%;*/
+          background-repeat: no-repeat;
+          background-position: top;
+          
+          
+          background-size: 100% 100%;
+          width: 100vw;
+          height: 100vh;/*o 100 fijarse para q ocupe toda pantalla cel*/
+          align-items: center;
+          
+      }
+}

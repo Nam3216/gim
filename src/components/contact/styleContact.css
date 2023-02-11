@@ -1,0 +1,44 @@
+.form input{
+    width: 30vw;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+textarea{
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid black;
+}
+
+.form{
+    margin: 0 auto;
+}
+
+.form p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact{
+    min-height: 70vh;
+    background-color: rgb(230, 227, 228);
+}
+
+.contactP{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    
+}
+
+.contactCont{
+    margin-top: 70px;
+    background-color: rgb(230, 227, 228);
+}
+
+.buttonForm{
+    margin-top: 20px;
+}
