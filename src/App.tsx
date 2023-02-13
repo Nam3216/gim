@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import PageHome from './components/pages/PageHome';
 import Item from './components/items/items';
 import Checkout from './components/checkout/Checkout';

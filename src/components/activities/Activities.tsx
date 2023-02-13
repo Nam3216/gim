@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 import { addProduct,changeNoun } from "../../store/cartSlice";
 import {useSelector,useDispatch} from "react-redux"
+import { Link } from "react-router-dom";
 import "./styleActivity.css"
 import { height } from "@mui/system";
 
@@ -12,6 +13,7 @@ const Activities=()=>{
     const[returnCheck,setReturnCheck]=useState(/*"favorite-btn-notadded"*/false)
     const dispatch=useDispatch()
     const{wishList,noun}=useSelector((state:any)=>state.cart)
+   
 //<>💙</>
     const handlerFavorite=(item:any)=>{/*lo agrego y lo saco de la wishlist, podria ir al redux esto*/
     console.log(item,"item")
@@ -63,7 +65,7 @@ const Activities=()=>{
                                 <Grid item md={3} sm={6} xs={12}>
                                     <div className="itemActivity" key={item.id}>
                                         <img src={item.img} alt="activity"/>
-                                        <Button className="favorite-btn" onClick={()=>handlerFavorite(item)}>❤️ </Button>
+                                      <Button className="favorite-btn" onClick={()=>handlerFavorite(item)}>❤️ </Button>
                                         <div className="itemActivityText">
                                             <p >{item.description}</p>
                                  
@@ -78,7 +80,7 @@ const Activities=()=>{
                 
                 })}
                 </Grid>
-                {wishList.length>0 && <Button variant="contained" id="buttonWish">Chequea tu WishList</Button>}
+                {wishList.length>0 && <Link to="/checkout"><Button variant="contained" id="buttonWish">Chequea tu WishList</Button> </Link>}
                 
             </div>
            
